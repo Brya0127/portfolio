@@ -1,0 +1,52 @@
+<!-- everything below this is my first attempt garbage pre BS Grid -->
+        <div class="banner">
+          <!-- banner section -->
+          <div class="banner-mobile">          
+            <h3>An App Designed to Keep You Safe!</h3>
+            <h1>Vox Populi</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AcFE3pTBik0?si=C6HP9khKAbqHvLzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+            <button type="button" class="btn btn-dark">Download</button>
+          </div>
+          <div class="banner-desktop">
+
+          </div>
+        </div>
+  
+        <div class="features">
+          <h2>Features</h2>
+          <div class="feature-grid">
+            <div class="feat-text">
+              Vox Populi empowers marginalized communities by offering a seamless incident tagging system. Users can document and categorize their experiences, whether positive or negative, related to discrimination, hate crimes, or supportive environments. The app then compiles this data into an interactive map, allowing individuals to make informed decisions about their surroundings. By visualizing the prevalence of incidents, Vox Populi transforms anecdotal experiences into a collective resource, enabling users to navigate their communities with greater awareness.
+
+            </div>
+            <div class="feat-img">
+              <!-- <picture>
+                do I need this with the srcset if I'm using bootstraps responsive imgs?
+              </picture> -->
+
+              <img src="images/images-full/feat-img-1.jpg" class="img-fluid" alt="satelite image of eastern USA at night">
+              
+
+            </div>
+            <div class="feat-text">
+              One of Vox Populi's core features is its ability to generate safe routes for users based on real-time incident data. The app analyzes the tagged incidents and provides users with alternative routes that prioritize safety. Whether someone is commuting to work, school, or simply exploring their city, Vox Populi ensures that users can navigate with peace of mind. By offering safe route options, the app aims to reduce the potential risks associated with discrimination and hate crimes, fostering a sense of security for marginalized individuals as they move through their daily lives.
+
+            </div>
+            <div class="feat-img">
+              
+            </div>
+            <div class="feat-text">
+              Vox Populi goes beyond incident documentation and route planning by incorporating an alert system to notify users about potential risks and areas with an increased likelihood of violence in an area. The app monitors online platforms for right-wing pundits inciting violence and analyzes patterns to predict potential hotspots. By receiving real-time alerts, users can make informed decisions about their movements and avoid areas with elevated risks. Vox Populi not only addresses the immediate concerns of discrimination but also aims to preemptively mitigate the impact of online hate speech on the physical safety of marginalized communities.
+
+            </div>
+            <div class="feat-img">
+
+              
+            </div>
+          </div>
+  
+  
+        </div>
+
+      </div>
