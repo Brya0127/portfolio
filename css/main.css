@@ -4,13 +4,43 @@ header {
   background-color: #131313;
 }
 
+/* .navbar-brand {
+  color: white;
+
+}
+
+.nav-link {
+  color: white;
+} */
+
+/* Do I add a media query to restyle the nav bar in desktop mode? */
+.navbar-brand {
+  font-size: 3em;
+}
+.nav-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-item a {
+  font-size: 2.5em;
+  /* This fixes the tiny links in the default navbar class */
+}
+
+.btn-dl {
+  margin-right: 2em;
+}
+/* .navbar-nav {
+  margin-left: 3em;
+} */
+
 .banner {
   background-color: #C6C6C6;
 }
 
-.banner h1, h3, p {
-  color: black;
-}
+/* .banner h1, h3, p {
+  color: rgb(255, 255, 255);
+} */
 main {
   background-color: #3F3F3F;
 }
@@ -60,6 +90,12 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
+}
+
+.feat-btns a, a:link {
+  color: white;
+  text-decoration: none;
+
 }
 
 .btn-lg {
