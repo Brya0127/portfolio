@@ -23,12 +23,12 @@ header {
   align-items: center;
 }
 .nav-item a {
-  font-size: 2.5em;
+  font-size: 2.25em;
   /* This fixes the tiny links in the default navbar class */
 }
 
 .btn-dl {
-  margin-right: 2em;
+  margin-right: 1em;
 }
 /* .navbar-nav {
   margin-left: 3em;
@@ -117,11 +117,11 @@ main {
 }
 
 .display-4 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .display-6 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .feat-img {
@@ -184,4 +184,52 @@ footer {
 .bi {
   color: white;
   margin: 1em;
+}
+
+.intro {
+  display: none;
+  /* wtf? this worked but now its still displaying? */
+}
+
+.feature-section {
+  background-color: #C6C6C6;
+}
+
+
+
+
+
+@media screen  and (max-width: 760px) {
+  /* Mobile */
+  /* Make the image frames 9:16 */
+  .linkies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+    
+  }
+
+@media screen and (min-width: 780px) {
+/* Tablet */
+  
+}
+
+@media screen and (min-width: 900px) {
+  /* Desktop */
+
+  /* .intro {
+    display: contents;
+  } */
+  
+  .display-4 {
+    color: white;
+  }
+
+  .display-6 {
+    color: white;
+  }
+
+
 }
