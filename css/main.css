@@ -111,6 +111,10 @@ main {
   height: 430px;
 }
 
+.feat-img {
+  object-fit: cover;
+}
+
 .feat-text {
   /* color: white; */
   padding: 2em;
@@ -124,9 +128,7 @@ main {
   color: rgb(0, 0, 0);
 }
 
-.feat-img {
-  object-fit: cover;
-}
+
 
 .col-4 {
   display: flex;
@@ -196,12 +198,101 @@ footer {
 }
 
 
-
+/* .feat-frame .img-fluid {
+  max-height: 165px;
+  aspect-ratio: 9/16;
+  height: auto;
+  object-fit: cover;
+} */
 
 
 @media screen  and (max-width: 760px) {
   /* Mobile */
+
+  .btn-dl {
+    display: none;
+  }
+
+  .display-1 {
+    color: white;
+  }
+  .display-3 {
+    color: white;
+  }
+
+  .nav-hidden .display-5 {
+    color: white;
+  }
+
+  .nav-hidden .h1 {
+    color: white;
+  }
+
+  .feat-skiplinks {
+    display: none;
+  }
   /* Make the image frames 9:16 */
+
+  /* .feat-frame {
+    height: 450px;
+    width: auto;
+    aspect-ratio: 3/4;
+
+  }
+
+  .feat-img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  GPT
+
+  .feat-frame .img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  } */
+
+  /* Mobile Feature Button Section */
+
+  .feat-skiplinks {
+    position: relative;
+    top: -1em;
+    margin: 4em;
+    text-align: center;
+}
+
+  .feat-frame {
+    width: 165px;
+    height: 605px;
+    
+  }
+
+  /* .feat-img .img-fluid {
+    object-fit: fill;
+    I got this working in dev tools, turning this off and writing .feat-img object-fit: cover;
+  } */
+
+  .feat-img {
+    object-fit: cover ;
+  }
+
+  .img-fluid {
+    height: 780px;
+    width: 165px;
+    /* phew got the image frame working, dont know if I need these next 2 lines */
+    position: relative;
+    bottom: 6em;
+  }
+
+
+  
+  /* .feat-img {
+    object-fit: contain;
+  } */
+  /* Okay I can't resize the image so genuinely FUCK THIS for right now, I'm moving on */
+
   .linkies {
     display: flex;
     flex-wrap: wrap;
@@ -216,12 +307,20 @@ footer {
   
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   /* Desktop */
 
-  /* .intro {
+  .nav-hidden {
+    display: none;
+  }
+
+  .intro-mobile {
+    display: none;
+  }
+
+  .intro {
     display: contents;
-  } */
+  }
   
   .display-4 {
     color: white;
@@ -230,6 +329,40 @@ footer {
   .display-6 {
     color: white;
   }
+
+  .feat-skiplinks {
+    position: relative;
+    top: -1em;
+    margin: 4em;
+    text-align: center;
+  }
+
+  .feature-section {
+    background-color:#3F3F3F;
+  }
+
+  /* .feat-skiplinks .display-3 {
+    color: black;
+  } */
+
+  .feat-frame {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .feat-img {
+    object-fit: cover;
+  }
+
+  /* .feat-frame {
+  width: 430px;
+  height: 430px;
+}
+
+.feat-img {
+  object-fit: cover;
+} */
+/* Do I move this to this @media or leave it in the code above? */
 
 
 }
