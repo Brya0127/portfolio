@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
+    <header role="navigation">
+      <div class="skips">
+        <a href="#main" class="skip">Skip to main content</a>
+        <a href="#feature-section" class="skip">Skip to features</a>
+        <a href="#footer" class="skip">Skip to bottom</a>
+      </div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid ms-2">        
         <a class="navbar-brand" href="index.html">Vox Populi</a>
@@ -48,10 +53,9 @@
             <!-- <li class="nav-item">
               <button type="button" class="btn btn-lg btn-dark">Download</button>              
             </li>        -->
-          </div>
+          </ul>
         </div>
-        <div>
-          <button type="button" class="btn btn-dl btn-lg btn-dark">Download</button>
+        <button type="button" class="btn btn-lg btn-lg-top btn-dark">Download</button>
         </div>
         
       </nav>
@@ -62,7 +66,7 @@
       <!-- <div class="container-fluid"> -->
         <section class="contact-mobile">
           <div class="container-fluid">
-            <div class="row hide-mobile">
+            <div class="row hide-mobile" role="contentinfo">
               <div class="col-12">
                 <div class="contact-msg-mobile m-4">
                   <p class="display-3 bi-black p-2">
@@ -87,26 +91,26 @@
   
             <div class="row hide-mobile">
               <div class="col-12">
-                <div class="contact-form-mobile m-5">
+                <div class="contact-form-mobile m-5" role="form">
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+                    <label for="name1mobile" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="name1mobile" placeholder="Jane">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                    <label for="name2mobile" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="name2mobile" placeholder="Doe">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="emailmobile" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailmobile" placeholder="name@example.com">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                    <label for="phonemobile" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="phonemobile" placeholder="123 456 7890">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="messagemobile" class="form-label">Message</label>
+                    <textarea class="form-control" id="messagemobile" rows="3"></textarea>
                   </div>
                   <button type="button" class="btn btn-md btn-dark">Submit</button>
   
@@ -118,7 +122,8 @@
           </div>
         
           
-      </div> <!--what if I add this closing div to the container-fluid and make a new container for the other sections?-->
+      <!-- </div>  -->
+      <!--what if I add this closing div to the container-fluid and make a new container for the other sections?-->
 
         </section>
 
@@ -127,7 +132,7 @@
           <div class="container-fluid">
             <div class="row hide-tablet-2">
               <!-- changing this to hide-tablet-2 fixes tablet layout -->
-              <div class="col-6">
+              <div class="col-6" role="complementary">
                 <div class="contact-msg-tablet">
                   <p class="display-3 p-2">
                     Contact Us
@@ -150,26 +155,26 @@
               </div>
   
               <div class="col-6">
-                <div class="contact-form-tablet">
+                <div class="contact-form-tablet" role="form">
                   <div class="mb-1 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+                    <label for="name1tablet" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="name1tablet" placeholder="Jane">
                   </div>
                   <div class="mb-1 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                    <label for="name2tablet" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="name2tablet" placeholder="Doe">
                   </div>
                   <div class="mb-1 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="emailtablet" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailtablet" placeholder="name@example.com">
                   </div>
                   <div class="mb-1 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                    <label for="phonetablet" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="phonetablet" placeholder="123 456 7890">
                   </div>
                   <div class="mb-1 p-2">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="messagetablet" class="form-label">Message</label>
+                    <textarea class="form-control" id="messagetablet" rows="3"></textarea>
                   </div>
                   <button type="button" class="btn btn-md btn-dark m-3">Submit</button>
   
@@ -180,12 +185,12 @@
             </div>
 
           </div>
-        </div>
+        <!-- </div> -->
           
 
         </section>
 
-        <section class="contact-desktop">
+        <section class="contact-desktop" role="main">
           <div class="container-fluid">
             
             
@@ -195,7 +200,7 @@
   
               </div>
   
-              <div class="col-3">
+              <div class="col-3" role="contentinfo">
                 <div class="contact-msg-desk">
                   <p class="display-3 p-2">
                     Contact Us
@@ -215,28 +220,28 @@
                 </div>
               </div> <!--closes col-3-->
   
-              <div class="col-7">
+              <div class="col-7" role="form">
                 <!-- add the form, list stlye, not like in my prototype -->
                 <div class="contact-form-desk">
                   <div class="mb-3 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+                    <label for="name1desktop" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="name1desktop" placeholder="Jane">
                   </div>
                   <div class="mb-3 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                    <label for="name2desktop" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="name2desktop" placeholder="Doe">
                   </div>
                   <div class="mb-3 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="emaildesktop" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emaildesktop" placeholder="name@example.com">
                   </div>
                   <div class="mb-3 p-2">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                    <label for="phonedesktop" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="phonedesktop" placeholder="123 456 7890">
                   </div>
                   <div class="mb-3 p-2">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="messagedesktop" class="form-label">Message</label>
+                    <textarea class="form-control" id="messagedesktop" rows="3"></textarea>
                   </div>
                   <button type="button" class="btn btn-md btn-dark m-3">Submit</button>
   

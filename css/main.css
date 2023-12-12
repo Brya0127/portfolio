@@ -13,15 +13,6 @@ header {
   overflow: hidden;
 }
 
-/* .navbar-brand {
-  color: white;
-
-}
-
-.nav-link {
-  color: white;
-} */
-
 /* Do I add a media query to restyle the nav bar in desktop mode? */
 .navbar-brand {
   font-size: 3em;
@@ -39,17 +30,13 @@ header {
 .btn-dl {
   margin-right: 1em;
 }
-/* .navbar-nav {
-  margin-left: 3em;
-} */
+
 
 .banner {
   background-color: #C6C6C6;
 }
 
-/* .banner h1, h3, p {
-  color: rgb(255, 255, 255);
-} */
+
 main {
   background-color: #3F3F3F;
 }
@@ -64,11 +51,9 @@ main {
 }
 
 .intro-banner {
-  /* background-color: #C6C6C6; */
   margin: 3em;
   margin-top: 6em;
   padding: 3em;
-  /* border-radius: 3%; */
 }
 
 .intro-buttons {
@@ -137,8 +122,6 @@ main {
   color: rgb(0, 0, 0);
 }
 
-
-
 .col-4 {
   display: flex;
   flex-wrap: wrap;
@@ -152,10 +135,6 @@ main {
   align-content: center;
 }
 
-/* .feat-img n:nth-child(2) {
-  margin: 1em;
-  margin-right: 2em;
-} */
 
 footer {
   background-color: #343a40 ;
@@ -199,7 +178,6 @@ footer {
 
 .intro {
   display: none;
-  /* wtf? this worked but now its still displaying? */
 }
 
 .feature-section {
@@ -211,12 +189,7 @@ ul li {
 }
 
 
-/* .feat-frame .img-fluid {
-  max-height: 165px;
-  aspect-ratio: 9/16;
-  height: auto;
-  object-fit: cover;
-} */
+
 
 
 @media screen  and (max-width: 760px) {
@@ -252,28 +225,7 @@ ul li {
   .feat-skiplinks {
     display: none;
   }
-  /* Make the image frames 9:16 */
-
-  /* .feat-frame {
-    height: 450px;
-    width: auto;
-    aspect-ratio: 3/4;
-
-  }
-
-  .feat-img {
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  GPT
-
-  .feat-frame .img-fluid {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-  } */
+ 
 
   /* Mobile Feature Button Section */
 
@@ -307,12 +259,6 @@ ul li {
     bottom: 6em;
   }
 
-
-  
-  /* .feat-img {
-    object-fit: contain;
-  } */
-  /* Okay I can't resize the image so genuinely FUCK THIS for right now, I'm moving on */
 
   .linkies {
     display: flex;
@@ -363,43 +309,22 @@ ul li {
     list-style-type: none;
   }
 
-  
-
-
-
-  /* .hide-tablet {
-    display: none;
-  }
-
-  .hide-desktop {
-    display: none;
-  } */
-
-
-
-  /* picture {
-    display: block;
-    width: 210px;
-    height: 880px;
-  } 
-
-  .mission-pic img {
-    width: 210px;
-    height: 880px;
-    object-fit: contain;
-  } */
 
 
     
   }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 780px) and (max-width: 1150px) {
 /* Tablet */
   .nav-hidden {
     display: none;
   }
 
   .btn-dl {
+    display: none;
+  }
+
+  .btn-lg-top {
     display: none;
   }
 
@@ -419,11 +344,6 @@ ul li {
   .mission-mobile {
     display: none;
   }
-
-  /* .row img { */
-    /* margin-left: 1em; */
-    /* this is effecting my imgs in desktop. So lets use feat-frame-l/r  */
-  /* } */
 
   .feat-frame-l {
     margin-left: 1em;
@@ -479,6 +399,12 @@ ul li {
     color: white;
   }
 
+  .btn-dl {
+    display: contents;
+  }
+
+  
+
   .frametest {
     width: 560px;
     height: 315px;
@@ -518,10 +444,6 @@ ul li {
   .feature-section {
     background-color:#3F3F3F;
   }
-
-  /* .feat-skiplinks .display-3 {
-    color: black;
-  } */
 
   .feat-frame {
     width: 500px;
@@ -584,32 +506,6 @@ ul li {
   .contact-desktop {
     display: contents;
   }
-
-  /* .hide-desktop .col-3 {
-    display: block;
-  } */
-
-  /* .hide-desktop {
-    display: none;
-  } */
-
-  /* footer .bi {
-    color: white;
-  } */
-
-  /* picture {
-    display: none;
-  } */
-
-  /* .feat-frame {
-  width: 430px;
-  height: 430px;
-}
-
-.feat-img {
-  object-fit: cover;
-} */
-/* Do I move this to this @media or leave it in the code above? */
 
 
 }

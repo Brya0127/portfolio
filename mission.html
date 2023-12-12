@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
+    <header  role="navigation">
+      <div class="skips">
+        <a href="#main" class="skip">Skip to main content</a>
+        <a href="#feature-section" class="skip">Skip to features</a>
+        <a href="#footer" class="skip">Skip to bottom</a>
+      </div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid ms-2">        
         <a class="navbar-brand" href="index.html">Vox Populi</a>
@@ -48,10 +53,9 @@
             <!-- <li class="nav-item">
               <button type="button" class="btn btn-lg btn-dark">Download</button>              
             </li>        -->
-          </div>
+          </ul>
         </div>
-        <div>
-          <button type="button" class="btn btn-dl btn-lg btn-dark">Download</button>
+        <button type="button" class="btn btn-lg btn-lg-top btn-dark">Download</button>
         </div>
         
       </nav>
@@ -61,13 +65,13 @@
     <main>
       <div class="container-fluid">
         <div class="mission-mobile">
-          <section class="mission-banner">
+          <section class="mission-banner" role="complementary">
             <div class="youtube-demo">
               <iframe width="330" height="185" src="https://www.youtube.com/embed/vtiSeu9U-hQ?si=5x-8kqERIe6jIHwv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <!-- youtube vid -->
             </div>
           </section>
-          <section class="mission-content">
+          <section class="mission-content" role="banner">
             <div class="row">
               <div class="col-12">
                 <p class="display-3 p-2">Our Mission</p>
@@ -85,7 +89,7 @@
                     media="(max-width: 760px)"> <!--Mobile landscape breakpoint-->
                     <source srcset="/images/images-deriv/office-2-575_x_383.jpg 1x, /images/images-deriv/office-2-1150_x_766.jpg 2x, /images/images-deriv/office-2-1725_x_1150.jpg 3x"
                     media="(max-width: 1150px)"> <!--Tablet breakpoint-->
-                    <source srcset="/images/images-deriv/office-2-960_x_640.jpg 1x, /images/images-deriv/office-2-1920_x_1280.jpg 2x, /images/images-deriv/office-2-2880_x_1919.jpg 3x 960 1x 1920 2x 2880 3x"
+                    <source srcset="/images/images-deriv/office-2-960_x_640.jpg 1x, /images/images-deriv/office-2-1920_x_1280.jpg 2x, /images/images-deriv/office-2-2880_x_1919.jpg 3x"
                     media="(max-width: 1920px)"> <!--Desktop breakpoint-->
                     <img src="images/images-full/office-2.jpg" alt="Two hands reaching from the left and right to complete a handshake, I think the background is the Berlin Holocaust memorial.">
   
@@ -93,7 +97,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row" role="main">
               <div class="col-12">
                 <p class="h3 p-3">
                   With Vox Populi, users contribute to a global movement by tagging incidents of discrimination, hate crimes, and acts of support. The app transforms these stories into a dynamic, interactive map, offering a comprehensive view of the community landscape. Navigate your world with confidence using our advanced features, from generating safe routes based on real-time incident data to receiving alerts about potential risks, including the influence of online rhetoric on real-world safety.
@@ -101,14 +105,14 @@
                   Join us in shaping a safer, more connected world. Vox Populi is not just an app; it's a catalyst for change, empowering individuals to make informed decisions and fostering a sense of security for all. Together, let's make Vox Populi the definitive Voice of the People, advocating for a future where everyone can move through life with peace of mind.
                 </p>
                 <p class="display-5 p-3 m-2 text-center">Our Founder</p>
-              <p class="h2 p-3 m-2 text-center ">
-                <ul itemscope itemtype="https://schema.org/Person">
-                  <li itemprop="givenName" class="text-center h4 decnon">Name: Lex Bryan</li>
-                  <li itemprop="jobTitle" class="text-center h4 decnon">Title: CEO</li>
-                  <li itemprop="email" class="text-center h4 decnon">Email: Lex@VoxPopuli.com</li>
-                  <li itemprop="telephone" class="text-center h4 decnon">Phone: 613-000-0000</li>
-                </ul>
-              </p>
+                <div class="h2 p-3 m-2 text-center ">
+                  <ul itemscope itemtype="https://schema.org/Person">
+                    <li itemprop="givenName" class="text-center h4 decnon">Name: Lex Bryan</li>
+                    <li itemprop="jobTitle" class="text-center h4 decnon">Title: CEO</li>
+                    <li itemprop="email" class="text-center h4 decnon">Email: Lex@VoxPopuli.com</li>
+                    <li itemprop="telephone" class="text-center h4 decnon">Phone: 613-000-0000</li>
+                  </ul>
+                </div>
                 <!-- text -->
 
               </div>
@@ -117,7 +121,7 @@
 
               
 
-            </div>
+            
 
           </section>
           
@@ -126,10 +130,10 @@
         <div class="mission-desk">
           <section class="our-mission">
             <div class="row">
-              <picture class="handshake-tablet">
+              <picture class="handshake-tablet" role="banner">
                 <source srcset="/images/images-deriv/office-2-575_x_383.jpg 1x, /images/images-deriv/office-2-1150_x_766.jpg 2x, /images/images-deriv/office-2-1725_x_1150.jpg 3x"
                     media="(max-width: 1150px)"> <!--Tablet breakpoint-->
-                    <source srcset="/images/images-deriv/office-2-960_x_640.jpg 1x, /images/images-deriv/office-2-1920_x_1280.jpg 2x, /images/images-deriv/office-2-2880_x_1919.jpg 3x 960 1x 1920 2x 2880 3x"
+                    <source srcset="/images/images-deriv/office-2-960_x_640.jpg 1x, /images/images-deriv/office-2-1920_x_1280.jpg 2x, /images/images-deriv/office-2-2880_x_1919.jpg"
                     media="(max-width: 1920px)"> <!--Desktop breakpoint-->
                     <img src="/images/images-deriv/office-2-1260_x_839.jpg" alt="Two hands reaching from the left and right to complete a handshake, I think the background is the Berlin Holocaust memorial.">
               </picture>
@@ -141,7 +145,7 @@
 
               </div>
               <div class="col-8">
-                <div class="mission-content-desk">
+                <div class="mission-content-desk" role="main">
                   <p class="display-3 p-3 m-2 text-center">Our Mission</p>
                   <p class="h2 p-3 m-2 text-center">
                     Welcome to Vox Populi, where the collective experiences of marginalized communities find a powerful voice. In a world that too often witnesses discrimination and hate, Vox Populi stands as a beacon of empowerment, harnessing the strength of community voices to foster informed decisions and ensure personal safety. Our app is a revolutionary tool designed to bridge the gap between individual narratives and shared understanding.
@@ -151,14 +155,14 @@
                     Join us in shaping a safer, more connected world. Vox Populi is not just an app; it's a catalyst for change, empowering individuals to make informed decisions and fostering a sense of security for all. Together, let's make Vox Populi the definitive Voice of the People, advocating for a future where everyone can move through life with peace of mind.
                   </p>
                   <p class="display-5 p-3 m-2 text-center">Our Founder</p>
-                  <p class="h2 p-3 m-2 text-center">
+                  <div class="h2 p-3 m-2 text-center">
                     <ul itemscope itemtype="https://schema.org/Person">
                       <li itemprop="givenName" class="text-center h4">Name: Lex Bryan</li>
                       <li itemprop="jobTitle" class="text-center h4">Title: CEO</li>
                       <li itemprop="email" class="text-center h4">Email: Lex@VoxPopuli.com</li>
                       <li itemprop="telephone" class="text-center h4 mb-5">Phone: 613-000-0000</li>
                     </ul>
-                  </p>
+                  </div>
 
                 </div>
               </div>
@@ -173,11 +177,12 @@
           </section>
 
         </div>
+      </div>
     </main>
 
 
     <footer>
-      <div class="footer-contents">
+      <div class="footer-contents" role="complementary">
         <!-- new footer attempt -->
       <div class="row">
         <div class="col-3">
