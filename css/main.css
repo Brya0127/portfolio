@@ -4,6 +4,15 @@ header {
   background-color: #131313;
 }
 
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* .navbar-brand {
   color: white;
 
@@ -414,7 +423,7 @@ ul li {
   /* .row img { */
     /* margin-left: 1em; */
     /* this is effecting my imgs in desktop. So lets use feat-frame-l/r  */
-  }
+  /* } */
 
   .feat-frame-l {
     margin-left: 1em;
