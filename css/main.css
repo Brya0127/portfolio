@@ -197,6 +197,10 @@ footer {
   background-color: #C6C6C6;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 
 /* .feat-frame .img-fluid {
   max-height: 165px;
@@ -325,9 +329,34 @@ footer {
     display: none;
   }
 
-  .hide-mobile {
+  .hide-tablet {
     display: none;
   }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: contents;
+  }
+
+  /* Contact Page */
+
+  .contact-mobile {
+    background-color: #C6C6C6;
+  }
+  .bi-black {
+    color: black;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  
+
+
 
   /* .hide-tablet {
     display: none;
@@ -361,6 +390,10 @@ footer {
     display: none;
   }
 
+  .btn-dl {
+    display: none;
+  }
+
   .intro-mobile {
     display: none;
   }
@@ -379,8 +412,19 @@ footer {
   }
 
   .row img {
-    margin-left: 14em;
+    /* margin-left: 1em; */
+    /* this is effecting my imgs in desktop. So lets use feat-frame-l/r  */
   }
+
+  .feat-frame-l {
+    margin-left: 1em;
+
+  }
+
+  .feat-frame-r {
+    margin-right: 1em;
+  }
+
 
   .mission-desk .text-center {
     color: white;
@@ -396,9 +440,10 @@ footer {
     display: contents;
   }
 
-  .hide-desktop {
+  /* .hide-desktop {
     display: none;
-  }
+  } */
+  /* commenting out this just fixed how it displays in desktop mode */
 
   .contact-form-tablet {
     background-color: #F7F7F7;
@@ -407,6 +452,14 @@ footer {
 
   .contact-msg-tablet {
     background-color: #C6C6C6;
+  }
+
+  .contact-desktop {
+    display: none;
+  }
+
+  .bi-black {
+    color: black;
   }
   
 }
@@ -514,9 +567,18 @@ footer {
     display: none;
   }
 
-  .hide-desktop {
+  /* .hide-desktop {
+    display: contents;
+    display: block;
+  } */
+
+  .contact-desktop {
     display: contents;
   }
+
+  /* .hide-desktop .col-3 {
+    display: block;
+  } */
 
   /* .hide-desktop {
     display: none;

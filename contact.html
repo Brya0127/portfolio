@@ -59,180 +59,200 @@
     </header>
 
     <main>
-      <div class="container-fluid">
+      <!-- <div class="container-fluid"> -->
         <section class="contact-mobile">
-          <div class="row hide-mobile">
-            <div class="col-12">
-              <div class="contact-msg-mobile m-4">
-                <p class="display-3 p-2">
-                  Contact Us
-                </p>
-                <p class="h3 p-2 text-center">
-                  Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
-                  Fill our your details and we will get back to you as soon as possible.
-                </p>
-                <div class="social-media">
-                  <p class="h2 p-2 text-center">Social Media</p>
-                  <div class="icons">
-                    <i class="bi bi-black bi-facebook"></i>
-                    <i class="bi bi-black bi-instagram"></i>
-                    <i class="bi bi-black bi-twitter"></i>
+          <div class="container-fluid">
+            <div class="row hide-mobile">
+              <div class="col-12">
+                <div class="contact-msg-mobile m-4">
+                  <p class="display-3 bi-black p-2">
+                    Contact Us
+                  </p>
+                  <p class="h3 p-2 text-center">
+                    Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
+                    Fill our your details and we will get back to you as soon as possible.
+                  </p>
+                  <div class="social-media">
+                    <p class="h2 p-2 bi-black text-center">Social Media</p>
+                    <div class="icons">
+                      <i class="bi bi-black bi-facebook"></i>
+                      <i class="bi bi-black bi-instagram"></i>
+                      <i class="bi bi-black bi-twitter"></i>
+                    </div>
+                  </div>           
+                </div>
+  
+              </div>
+            </div>
+  
+            <div class="row hide-mobile">
+              <div class="col-12">
+                <div class="contact-form-mobile m-5">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
                   </div>
-                </div>           
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-md btn-dark">Submit</button>
+  
+                </div>
+  
               </div>
-
             </div>
+
           </div>
-
-          <div class="row hide-mobile">
-            <div class="col-12">
-              <div class="contact-form-mobile m-3">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="button" class="btn btn-md btn-dark">Submit</button>
-
-              </div>
-
-            </div>
-          </div>
+        
+          
+      </div> <!--what if I add this closing div to the container-fluid and make a new container for the other sections?-->
 
         </section>
 
         <section class="contact-tablet hide-tablet">
-          <div class="row hide-tablet">
-            <div class="col-6">
-              <div class="contact-msg-tablet m-4">
-                <p class="display-3 p-2">
-                  Contact Us
-                </p>
-                <p class="h3 p-2 text-center">
-                  Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
-                  Fill our your details and we will get back to you as soon as possible.
-                </p>
-                <div class="social-media">
-                  <p class="h2 p-2 text-center">Social Media</p>
-                  <div class="icons">
-                    <i class="bi bi-black bi-facebook"></i>
-                    <i class="bi bi-black bi-instagram"></i>
-                    <i class="bi bi-black bi-twitter"></i>
+          <!-- make new container -->
+          <div class="container-fluid">
+            <div class="row hide-tablet-2">
+              <!-- changing this to hide-tablet-2 fixes tablet layout -->
+              <div class="col-6">
+                <div class="contact-msg-tablet">
+                  <p class="display-3 p-2">
+                    Contact Us
+                  </p>
+                  <p class="h3 p-2 text-center">
+                    Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
+                    Fill our your details and we will get back to you as soon as possible.
+                  </p>
+                  <br><br>
+                  <div class="social-media">
+                    <p class="h2 p-2 bi-black text-center">Social Media</p>
+                    <div class="icons m-4">
+                      <i class="bi bi-black bi-facebook"></i>
+                      <i class="bi bi-black bi-instagram"></i>
+                      <i class="bi bi-black bi-twitter"></i>
+                    </div>
+                  </div>           
+                </div>
+  
+              </div>
+  
+              <div class="col-6">
+                <div class="contact-form-tablet">
+                  <div class="mb-1 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
                   </div>
-                </div>           
+                  <div class="mb-1 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                  </div>
+                  <div class="mb-1 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-1 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                  </div>
+                  <div class="mb-1 p-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-md btn-dark m-3">Submit</button>
+  
+                </div>
+  
               </div>
-
-            </div>
-
-            <div class="col-6">
-              <div class="contact-form-tablet m-3">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="button" class="btn btn-md btn-dark">Submit</button>
-
-              </div>
-
+  
             </div>
 
           </div>
+        </div>
+          
 
         </section>
 
         <section class="contact-desktop">
-          <div class="row hide-desktop">
-            <div class="col-1">
-              <!-- empty -->
-
-            </div>
-
-            <div class="col-3">
-              <div class="contact-msg-desk m-4">
-                <p class="display-3 p-2">
-                  Contact Us
-                </p>
-                <p class="h3 p-2 text-center">
-                  Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
-                  Fill our your details and we will get back to you as soon as possible.
-                </p>
-                <div class="social-media">
-                  <p class="h2 p-2 text-center">Social Media</p>
-                  <div class="icons">
-                    <i class="bi bi-black bi-facebook"></i>
-                    <i class="bi bi-black bi-instagram"></i>
-                    <i class="bi bi-black bi-twitter"></i>
+          <div class="container-fluid">
+            
+            
+            <div class="row hide-desktop">
+              <div class="col-1">
+                <!-- empty -->
+  
+              </div>
+  
+              <div class="col-3">
+                <div class="contact-msg-desk">
+                  <p class="display-3 p-2">
+                    Contact Us
+                  </p>
+                  <p class="h3 p-2 text-center">
+                    Contact Vox Populi with any questions, concerns or suggestions you have for how we can improve our app and make it more accessible for everybody!
+                    Fill our your details and we will get back to you as soon as possible.
+                  </p>
+                  <div class="social-media">
+                    <p class="h2 p-2 text-center">Social Media</p>
+                    <div class="icons">
+                      <i class="bi bi-black bi-facebook"></i>
+                      <i class="bi bi-black bi-instagram"></i>
+                      <i class="bi bi-black bi-twitter"></i>
+                    </div>
+                  </div>           
+                </div>
+              </div> <!--closes col-3-->
+  
+              <div class="col-7">
+                <!-- add the form, list stlye, not like in my prototype -->
+                <div class="contact-form-desk">
+                  <div class="mb-3 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
                   </div>
-                </div>           
+                  <div class="mb-3 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
+                  </div>
+                  <div class="mb-3 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3 p-2">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
+                  </div>
+                  <div class="mb-3 p-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-md btn-dark m-3">Submit</button>
+  
+                </div>
+  
               </div>
-            </div>
-
-            <div class="col-7">
-              <!-- add the form, list stlye, not like in my prototype -->
-              <div class="contact-form-desk m-3">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123 456 7890">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="button" class="btn btn-md btn-dark">Submit</button>
-
+  
+              <div class="col-1">
+                <!-- empty -->
+  
               </div>
-
-            </div>
-
-            <div class="col-1">
-              <!-- empty -->
-
+  
             </div>
 
           </div>
+          
 
         </section>
 
