@@ -312,28 +312,102 @@ footer {
     background-color: #C6C6C6;
   }
 
+  .mission-content .display-3 {
+    color: black;
+  }
+
+  .youtube-demo {
+    padding: 1em;
+    margin-left: 9em;
+  }
+
+  .mission-desk {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  /* .hide-tablet {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: none;
+  } */
+
+
+
+  /* picture {
+    display: block;
+    width: 210px;
+    height: 880px;
+  } 
+
+  .mission-pic img {
+    width: 210px;
+    height: 880px;
+    object-fit: contain;
+  } */
+
 
     
   }
 
 @media screen and (min-width: 780px) {
 /* Tablet */
-.nav-hidden {
-  display: none;
-}
+  .nav-hidden {
+    display: none;
+  }
 
-.intro-mobile {
-  display: none;
-}
+  .intro-mobile {
+    display: none;
+  }
 
-.feat-skiplinks {
-  display: none;
-}
+  .feat-skiplinks {
+    display: none;
+  }
 
-.youtube-frame {
-  margin-left: 3em;
-  /* Justify wont work */
-}
+  .youtube-frame {
+    margin-left: 3em;
+    /* Justify wont work */
+  }
+
+  .mission-mobile {
+    display: none;
+  }
+
+  .row img {
+    margin-left: 14em;
+  }
+
+  .mission-desk .text-center {
+    color: white;
+  }
+
+  /* it was going totally fine but then something happened and now my bs grid is screwed up and not hiding correctly. */
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .hide-tablet {
+    display: contents;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .contact-form-tablet {
+    background-color: #F7F7F7;
+
+  }
+
+  .contact-msg-tablet {
+    background-color: #C6C6C6;
+  }
   
 }
 
@@ -395,6 +469,66 @@ footer {
   .feat-img {
     object-fit: cover;
   }
+
+  .handshake-tablet {
+    display: none;
+  }
+
+  .contact-desktop .col-3 {
+    background-color: #C6C6C6;
+  }
+
+  .contact-desktop .col-7 {
+    background-color: #F7F7F7;
+  }
+
+  .contact-desktop .social-media {
+    color: black;
+  }
+
+  .contact-msg-desk {
+
+  }
+
+  .icons .bi-black{
+    color: black;
+  }
+
+  .bi {
+    color: white;
+  }
+
+  .contact-form-mobile {
+    display: none;
+  }
+
+  .contact-form-tablet {
+    display: none;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .hide-tablet {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: contents;
+  }
+
+  /* .hide-desktop {
+    display: none;
+  } */
+
+  /* footer .bi {
+    color: white;
+  } */
+
+  /* picture {
+    display: none;
+  } */
 
   /* .feat-frame {
   width: 430px;
