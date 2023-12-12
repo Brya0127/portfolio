@@ -390,6 +390,10 @@ ul li {
   .bi-black {
     color: black;
   }
+
+  /* Mission Display Issues */
+
+  
   
 }
 
@@ -507,5 +511,15 @@ ul li {
     display: contents;
   }
 
+
+  /* Mission display issues */
+
+  .mission-mobile {
+    display: none;
+  }
+
+  .mission-desk {
+    color: white;
+  }
 
 }
