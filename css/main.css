@@ -228,6 +228,14 @@ footer {
     color: white;
   }
 
+  .youtube-frame {
+    display: none;
+  }
+
+  .btn a {
+    color: white;
+  }
+
   .feat-skiplinks {
     display: none;
   }
@@ -299,16 +307,50 @@ footer {
     flex-direction: row;
   }
 
+  /* Mission Page */
+  .mission-content {
+    background-color: #C6C6C6;
+  }
+
+
     
   }
 
 @media screen and (min-width: 780px) {
 /* Tablet */
+.nav-hidden {
+  display: none;
+}
+
+.intro-mobile {
+  display: none;
+}
+
+.feat-skiplinks {
+  display: none;
+}
+
+.youtube-frame {
+  margin-left: 3em;
+  /* Justify wont work */
+}
   
 }
 
 @media screen and (min-width: 1200px) {
   /* Desktop */
+  .btn a {
+    color: white;
+  }
+
+  .frametest {
+    width: 560px;
+    height: 315px;
+  }
+
+  .youtube-frame {
+    display: none;
+  }
 
   .nav-hidden {
     display: none;
