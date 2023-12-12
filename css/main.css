@@ -411,7 +411,7 @@ ul li {
     display: none;
   }
 
-  .row img {
+  /* .row img { */
     /* margin-left: 1em; */
     /* this is effecting my imgs in desktop. So lets use feat-frame-l/r  */
   }
